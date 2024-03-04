@@ -21,7 +21,7 @@ Made for handhelds, simple, efficient, light. This was made for my RG35XX Plus, 
 - Video;
 
 # Theme Statusbar :
-- only clock, only battery & wifi or none;
+- battery & wifi, only clock or none;
 
 
 # Screenshots :

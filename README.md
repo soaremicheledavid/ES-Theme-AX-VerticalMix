@@ -1,18 +1,15 @@
 # ES-Theme-AX-VerticalMix
 Made for handhelds, simple, efficient, light. This was made for my RG35XX Plus, for batocera system.
 
+# Aspect Ratio :
+- 4/3 (Handheld Consoles);
+
 # Colors :
 - Blue;
 - Orange;
 - Purple;
 - Green;
 - White;
-
-# Style :
-- Black;
-
-# Aspect Ratio :
-- 4/3 (Handheld Consoles);
   
 # Gamelist View Style :
 - Basic;

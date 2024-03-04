@@ -24,6 +24,7 @@ Just say thanks! Dont forget, we do this for free.
 
   <subset name="Background Source" displayName="${string.settings.backgroundEntry}">
     <include name="Simple" displayName="${string.settings.backgroundEntry.simple}"/>
+    <include name="Random" displayName="${string.settings.backgroundEntry.randomBg}" />
   </subset>
 
   <subset name="GameListBGStyle" displayName="${string.settings.gamelistBackgroundStyle}">
@@ -31,7 +32,6 @@ Just say thanks! Dont forget, we do this for free.
   </subset>
 
   <subset name="Background" displayName="${string.settings.backgroundStyle}">
-    <include name="Scanlines" displayName="${string.settings.backgroundStyle.scanlines}" />
     <include name="Clean" displayName="${string.settings.backgroundStyle.clean}" />
   </subset>
 

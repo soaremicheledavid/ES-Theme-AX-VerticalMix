@@ -2,15 +2,14 @@
 Made for handhelds, simple, efficient, light. This was made for my RG35XX Plus, for batocera system.
 
 # Colors :
-- Purple;
 - Blue;
-- Red;
 - Orange;
-- Yellow;
+- Purple;
+- Green;
+- White;
 
 # Style :
 - Black;
-- White;
 
 # Aspect Ratio :
 - 4/3 (Handheld Consoles);
@@ -18,7 +17,12 @@ Made for handhelds, simple, efficient, light. This was made for my RG35XX Plus, 
 # Gamelist View Style :
 - Basic;
 - Detailed;
-- Grid;
+- Grid (2x1 looks great);
+- Video;
+
+# Theme Statusbar :
+- only clock, only battery & wifi or none;
+
 
 # Screenshots :
 

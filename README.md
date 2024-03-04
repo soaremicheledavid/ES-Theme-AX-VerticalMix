@@ -20,9 +20,6 @@ Made for handhelds, simple, efficient, light. This was made for my RG35XX Plus, 
 - Grid (2x1 looks great);
 - Video;
 
-# Theme Statusbar :
-- battery & wifi, only clock or none;
-
 
 # Screenshots :
 

@@ -8,14 +8,14 @@ Just say thanks! Dont forget, we do this for free.
 <theme>
   <formatVersion>7</formatVersion>
 
-  <!--Confugurações da view "grid"-->
+  <!--Configure view "grid"-->
   <view name="grid">
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
-      <autoLayout>2 2</autoLayout>
+      <autoLayout>2 1</autoLayout>
       <autoLayout ifSubset="Ratio:5-3">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
-
+      <scrollSound>./assets/sounds/scrollgrid.wav</scrollSound>
       <imageSource ifSubset="GridImage:gridscreenshot">image</imageSource>
       <imageSource ifSubset="GridImage:gridthumbnail">thumbnail</imageSource>
 

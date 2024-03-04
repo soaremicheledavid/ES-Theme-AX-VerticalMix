@@ -1,0 +1,24 @@
+<!--
+  Theme: AX-VerticalMix
+  Author: SMD © 2024
+
+Just say thanks! Dont forget, we do this for free.
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="basic, detailed, grid, video, system">
+    <textlist name="gamelist">
+      <scrollSound>./assets/sounds/scroll2.wav</scrollSound>
+    </textlist>
+
+    <gamelist name="gamegrid">
+      <scrollSound>./assets/sounds/scroll.wav</scrollSound>
+    </gamelist>
+
+    <carousel name="systemcarousel">
+      <scrollSound>./assets/sounds/scroll.wav</scrollSound>
+    </carousel>
+  </view>
+</theme>

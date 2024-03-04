@@ -1,0 +1,89 @@
+<!--
+  Theme: AX-VerticalMix
+  Author: SMD © 2024
+
+Just say thanks! Dont forget, we do this for free.
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <subset name="colorScheme" displayName="${string.settings.colorSchemeTitle}">
+    <include name="blue" displayName="${string.settings.color.blue}">./settings/colors/blue.xml</include>
+    <include name="orange" displayName="${string.settings.color.orange}">./settings/colors/orange.xml</include>
+    <include name="purple" displayName="${string.settings.color.purple}">./settings/colors/purple.xml</include>
+    <include name="green" displayName="${string.settings.color.green}">./settings/colors/green.xml</include>
+    <include name="white" displayName="${string.settings.color.white}">./settings/colors/white.xml</include>
+  </subset>
+
+  <subset name="FontSize" displayName="${string.settings.fontSize}">
+    <include name="medium" displayName="${string.settings.fontSize.medium}" />
+    <include name="large" displayName="${string.settings.fontSize.large}" />
+    <include name="small" displayName="${string.settings.fontSize.small}" />
+  </subset>
+
+  <subset name="Background Source" displayName="${string.settings.backgroundEntry}">
+    <include name="Simple" displayName="${string.settings.backgroundEntry.simple}"/>
+  </subset>
+
+  <subset name="GameListBGStyle" displayName="${string.settings.gamelistBackgroundStyle}">
+    <include name="Dark" displayName="${string.settings.gamelistBackgroundStyle.none}"/>
+  </subset>
+
+  <subset name="Background" displayName="${string.settings.backgroundStyle}">
+    <include name="Scanlines" displayName="${string.settings.backgroundStyle.scanlines}" />
+    <include name="Clean" displayName="${string.settings.backgroundStyle.clean}" />
+  </subset>
+
+  <subset name="StatusBar" displayName="${string.settings.statusBar}">
+    <include name="statusComplete"
+      displayName="${string.settings.clock} + ${string.settings.battery}" />
+    <include name="statusClock" displayName="${string.settings.clock}" />
+    <include name="statusBattery" displayName="${string.settings.battery}" />
+    <include name="statusHidden" displayName="${string.settings.hidden}" />
+  </subset>
+
+  <subset name="Date Format" displayName="${string.settings.dateFormat}" appliesTo="detailed, grid">
+    <include name="y-m-d" displayName="YYYY/MM/DD" />
+    <include name="m-d-y" displayName="MM/DD/YYYY" />
+    <include name="d-m-y" displayName="DD/MM/YYYY" />
+  </subset>
+
+  <subset name="DefaultGridIconsRatio" displayName="${string.settings.gridIconRatio}"
+    appliesTo="grid">
+    <include name="1-1" displayName="${string.settings.gridIconRatio.square}" />
+    <include name="2-3" displayName="2:3 (Steam)" />
+    <include name="tip" displayName="${string.settings.gridIconRatio.tip}" />
+  </subset>
+
+  <subset name="GridImage" displayName="${string.settings.imageSource}" appliesTo="grid">
+    <include name="gridscreenshot" displayName="${string.imageSource.image}" />
+    <include name="gridthumbnail" displayName="${string.imageSource.thumbnail}" />
+  </subset>
+
+  <subset name="gridImageStyle" displayName="${string.gridImageStyle}" appliesTo="grid">
+    <include name="stretch" displayName="${string.gridImageStyle.stretch}" />
+    <include name="cover" displayName="${string.gridImageStyle.cover}" />
+    <include name="fit" displayName="${string.gridImageStyle.fit}" />
+  </subset>
+
+  <subset name="Ratio" displayName="${string.settings.screenRatio}">
+    <include ifArch="rg35xx plus,rg35xx H" name="4-3" displayName="4:3 (${string.default})" />
+
+    <include ifNotArch="handheld,rg35xx plus, rg35xx H" name="4-3" displayName="4:3" />
+
+    <include name="4-3" displayName="4:3" />
+    <!-- <include name="16-9" displayName="16:9" /> -->
+  </subset>
+
+  <include>./settings/variables/general.xml</include>
+
+  <include>./settings/display/view-general.xml</include>
+  <include>./settings/display/view-system.xml</include>
+  <include>./settings/display/view-menu.xml</include>
+  <include>./settings/display/view-basic.xml</include>
+  <include>./settings/display/view-detailed-video.xml</include>
+  <include>./settings/display/view-grid.xml</include>
+  <include>./settings/sound.xml</include>
+
+</theme>

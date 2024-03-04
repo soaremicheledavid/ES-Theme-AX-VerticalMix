@@ -1,0 +1,18 @@
+<!--
+  Theme: AX-VerticalMix
+  Author: SMD 2024
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <primaryColor>d61818</primaryColor>
+
+    <primaryColorLightVariant>ffc145</primaryColorLightVariant>
+
+    <primaryColorDarkVariant>ff582e</primaryColorDarkVariant>
+    <primaryColorAlt>ffebeb</primaryColorAlt>
+  </variables>
+
+</theme>

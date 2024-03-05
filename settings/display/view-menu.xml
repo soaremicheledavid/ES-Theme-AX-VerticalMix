@@ -12,7 +12,7 @@ Just say thanks! Dont forget, we do this for free.
   <view name="menu">
     <menuText name="menutext">
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize>0.038</fontSize>
 
       <selectedColor>121212</selectedColor>
       <selectorColor>${primaryColorAlt}</selectorColor>
@@ -23,13 +23,13 @@ Just say thanks! Dont forget, we do this for free.
 
     <menuText name="menufooter">
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeBody2-medium}</fontSize>
+      <fontSize>0.04</fontSize>
       <color>${primaryColorLightVariant}cc</color>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeBody2-medium}</fontSize>
+      <fontSize>0.02</fontSize>
       <color>${primaryColorAlt}</color>
     </menuTextSmall>
 
@@ -45,7 +45,7 @@ Just say thanks! Dont forget, we do this for free.
 
     <menuText name="menutitle">
       <fontPath>${typefaceTitleBold}</fontPath>
-      <fontSize>${fontSizeH1-medium}</fontSize>
+      <fontSize>0.046</fontSize>
       <color>${primaryColorLightVariant}</color>
     </menuText>
 

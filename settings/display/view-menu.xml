@@ -11,8 +11,8 @@ Just say thanks! Dont forget, we do this for free.
   <!-- Menu Settings -->
   <view name="menu">
     <menuText name="menutext">
-      <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>0.038</fontSize>
+      <fontPath>${fontRegular}</fontPath>
+      <fontSize>0.045</fontSize>
 
       <selectedColor>121212</selectedColor>
       <selectorColor>${primaryColorAlt}</selectorColor>
@@ -23,13 +23,13 @@ Just say thanks! Dont forget, we do this for free.
 
     <menuText name="menufooter">
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>0.04</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
       <color>${primaryColorLightVariant}cc</color>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
-      <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>0.02</fontSize>
+      <fontPath>${fontLight}</fontPath>
+      <fontSize>0.03</fontSize>
       <color>${primaryColorAlt}</color>
     </menuTextSmall>
 
@@ -44,8 +44,8 @@ Just say thanks! Dont forget, we do this for free.
     </menuGroup>
 
     <menuText name="menutitle">
-      <fontPath>${typefaceTitleBold}</fontPath>
-      <fontSize>0.046</fontSize>
+      <fontPath>${fontBold}</fontPath>
+      <fontSize>0.050</fontSize>
       <color>${primaryColorLightVariant}</color>
     </menuText>
 

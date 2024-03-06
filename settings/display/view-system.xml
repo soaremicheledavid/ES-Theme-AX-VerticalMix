@@ -86,6 +86,8 @@ Just say thanks! Dont forget, we do this for free.
       <size ifHelpPrompts="true" ifSubset="Ratio:4-3">0.6125 ${fontSizeH1}</size>
 
       <color>ffffff</color>
+      <glowColor>000000</glowColor>
+      <glowSize>2</glowSize>
 
       <fontSize>0.140</fontSize>
 

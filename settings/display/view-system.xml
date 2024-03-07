@@ -85,9 +85,9 @@ Just say thanks! Dont forget, we do this for free.
       <size ifHelpPrompts="true">0.55 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
       <size ifHelpPrompts="true" ifSubset="Ratio:4-3">0.6125 ${fontSizeH1}</size>
 
-      <color>ffffff</color>
-      <glowColor>000000</glowColor>
-      <glowSize>2</glowSize>
+      <color>${statusBarIconColor}</color>
+      <glowColor>0a0a0a</glowColor>
+      <glowSize>1.7</glowSize>
 
       <fontSize>0.140</fontSize>
 
@@ -198,7 +198,6 @@ Just say thanks! Dont forget, we do this for free.
       <path>./assets/ratio32/status-bar.png</path>
       <path ifSubset="Ratio:4-3">./assets/Wallpapers/status-bar.png</path>
       <path ifSubset="Ratio:16-9">./assets/ratio169/status-bar.png</path>
-
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
